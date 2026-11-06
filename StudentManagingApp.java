@@ -180,7 +180,7 @@ public class StudentManagingApp {
                                 }   
                                 if (subjectChoice == 2){
                                     double physicsMark = -1;
-                                    System.out.print("enter the math mark: ");
+                                    System.out.print("enter the physics mark: ");
                                     while ((physicsMark < 0) || (physicsMark >20)){
                                         while (true){
                                             try{
@@ -190,12 +190,12 @@ public class StudentManagingApp {
                                             catch(InputMismatchException e){
                                                 System.out.println("Only numbers accepted");
                                                 scanner.nextLine();
-                                                System.out.print("enter the math mark: ");
+                                                System.out.print("enter the physics mark: ");
                                             }
                                         }
                                         if ((physicsMark < 0) || (physicsMark > 20)){
                                             System.out.println("Mark must be between 0 and 20");
-                                            System.out.print("enter the the math mark: ");
+                                            System.out.print("enter the the physics mark: ");
                                         }
                                     }
                                     System.out.println("==Mark Added Succesfully==");
@@ -203,7 +203,7 @@ public class StudentManagingApp {
                                 } 
                                 if (subjectChoice == 3){
                                     double frenchMark = -1;
-                                    System.out.print("enter the math mark: ");
+                                    System.out.print("enter the french mark: ");
                                     while ((frenchMark < 0) || (frenchMark >20)){
                                         while (true){
                                             try{
@@ -213,12 +213,12 @@ public class StudentManagingApp {
                                             catch(InputMismatchException e){
                                                 System.out.println("Only numbers accepted");
                                                 scanner.nextLine();
-                                                System.out.print("enter the math mark: ");
+                                                System.out.print("enter the french mark: ");
                                             }
                                         }
                                         if ((frenchMark < 0) || (frenchMark > 20)){
                                             System.out.println("Mark must be between 0 and 20");
-                                            System.out.print("enter the the math mark: ");
+                                            System.out.print("enter the the french mark: ");
                                         }
                                     }
                                     System.out.println("==Mark Added Succesfully==");
@@ -226,7 +226,7 @@ public class StudentManagingApp {
                                 } 
                                 if (subjectChoice == 4){
                                     double englishMark = -1;
-                                    System.out.print("enter the math mark: ");
+                                    System.out.print("enter the english mark: ");
                                     while ((englishMark < 0) || (englishMark >20)){
                                         while (true){
                                             try{
@@ -236,12 +236,12 @@ public class StudentManagingApp {
                                             catch(InputMismatchException e){
                                                 System.out.println("Only numbers accepted");
                                                 scanner.nextLine();
-                                                System.out.print("enter the math mark: ");
+                                                System.out.print("enter the english mark: ");
                                             }
                                         }
                                         if ((englishMark < 0) || (englishMark > 20)){
                                             System.out.println("Mark must be between 0 and 20");
-                                            System.out.print("enter the the math mark: ");
+                                            System.out.print("enter the the english mark: ");
                                         }
                                     }
                                     System.out.println("==Mark Added Succesfully==");

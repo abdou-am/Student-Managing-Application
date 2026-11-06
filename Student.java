@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.InputMismatchException;
 public class Student{
     private static int id = 0;
     private int studentId;

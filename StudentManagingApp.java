@@ -727,6 +727,7 @@ public class StudentManagingApp {
                 }
             }
         }
+        scanner.close();
         
     }
 }

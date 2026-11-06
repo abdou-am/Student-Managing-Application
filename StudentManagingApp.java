@@ -568,7 +568,7 @@ public class StudentManagingApp {
                                             }
                                         }
                                         double mathNewMark = -1;
-                                        System.out.print("enter the math mark you want to edit: ");
+                                        System.out.print("enter the math mark you want to set: ");
                                         while ((mathNewMark < 0) || (mathNewMark >20)){
                                             while (true){
                                                 try{
@@ -611,7 +611,7 @@ public class StudentManagingApp {
                                             }
                                         }
                                         double physicsNewMark = -1;
-                                        System.out.print("enter the physics mark you want to edit: ");
+                                        System.out.print("enter the physics mark you want to set: ");
                                         while ((physicsNewMark < 0) || (physicsNewMark >20)){
                                             while (true){
                                                 try{
@@ -654,7 +654,7 @@ public class StudentManagingApp {
                                             }
                                         }
                                         double frenchNewMark = -1;
-                                        System.out.print("enter the french mark you want to edit: ");
+                                        System.out.print("enter the french mark you want to set: ");
                                         while ((frenchNewMark < 0) || (frenchNewMark >20)){
                                             while (true){
                                                 try{
@@ -697,7 +697,7 @@ public class StudentManagingApp {
                                             }
                                         }
                                         double englishNewMark = -1;
-                                        System.out.print("enter the math mark you want to edit: ");
+                                        System.out.print("enter the math mark you want to set: ");
                                         while ((englishNewMark < 0) || (englishNewMark >20)){
                                             while (true){
                                                 try{

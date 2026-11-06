@@ -143,33 +143,32 @@ public class Student{
                 System.out.print(x+"    ");
 
             }
-            System.out.print("-->   average : "+mathAverage());
+            System.out.println("-->   average : "+mathAverage());
         }
-        if (!mathMarks.isEmpty()){
-            System.out.printf("Math : ");
-            for (Double x:mathMarks){
+        if (!physicsMarks.isEmpty()){
+            System.out.printf("physics : ");
+            for (Double x:physicsMarks){
                 System.out.print(x+"    ");
 
             }
-            System.out.print("-->   average : "+mathAverage());
+            System.out.println("-->   average : "+physicsAverage());
         }
-        if (!mathMarks.isEmpty()){
-            System.out.printf("Math : ");
-            for (Double x:mathMarks){
+        if (!frenchMarks.isEmpty()){
+            System.out.printf("french : ");
+            for (Double x:frenchMarks){
                 System.out.print(x+"    ");
 
             }
-            System.out.print("-->   average : "+mathAverage());
+            System.out.println("-->   average : "+frenchAverage());
         }
-        if (!mathMarks.isEmpty()){
-            System.out.printf("Math : ");
-            for (Double x:mathMarks){
+        if (!englishMarks.isEmpty()){
+            System.out.printf("english : ");
+            for (Double x:englishMarks){
                 System.out.print(x+"    ");
 
             }
-            System.out.print("-->   average : "+mathAverage());
+            System.out.println("-->   average : "+englishAverage());
         }
-        System.out.println("");
         if ((average() != -1) && (average() != -2)){
             System.out.println("average : "+average());
             if (average()>=10){
